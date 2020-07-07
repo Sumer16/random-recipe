@@ -22,7 +22,7 @@ const createFood = (meal) => {
 	const newInnerHTML = `
 		<div class="columns">
       <div class="column">
-        <figure class="image is-480x480">
+        <figure class="image is-360x360">
           <img src="${meal.strMealThumb}" alt="Meal Image">
         </figure>
 				${meal.strCategory ? `<p><strong>Category:</strong> ${meal.strCategory}</p>` : ''}
